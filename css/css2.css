@@ -8,24 +8,27 @@ h1 {
 
 
 .container{
-    width: 1880px;
-    background-color: #861d1d ;
-    
-
+  height: 940px;
+  width: 1610px;
+  padding: 0px;
 
 }
+
 section{
     width: 100%;
     margin-top: 50px;
 
 }
 .header {
-     
+  
       width: 100%;
+       background-color: #ffffff ;
+     background-size: cover;
      display: flex;
     justify-content: center;
     align-items: center;
 }
+
 header a {
     color: #fff;
 }
@@ -61,17 +64,21 @@ header a {
     letter-spacing: 0.1em;
 }
 .nav {
-    display: flex;
-    padding-top: 57px;
-    justify-content: center;
-    height: 30px;
-    
+  justify-content: space-around;
+  display: flex;
+  margin-top: 57px;
+  height: 70px;   
+  width: 1610px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 18px;
+
+  
 }
 
 .footer{
     height: 100px;
     width: 100%;
-    background-color: pink;
+    background-color: #861d1d;
     margin-top: auto;
 }
 h3{
@@ -131,12 +138,12 @@ cursor: pointer;
 }
  #cherry{
   margin-right: 40px;
-    color: #ffeaea;
+    color: #200b0b;
     transition-duration: 0.4s;
  }
  #cherry:hover{ 
   font-size: 25px;
-  color: #200b0b;
+  color: #ffeaea;
   
 }
 li {

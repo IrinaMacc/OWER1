@@ -10,18 +10,31 @@ h1 {
 
 
 .container{
+    height: 940px;
     width: 1610px;
+    padding: 0px;
 
 }
+.nav {
+    justify-content: space-around;
+    display: flex;
+    margin-top: 57px;
+    height: 70px;   
+    width: 1300px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 18px;
+    
+}
 section{
+    margin-top: 50px;
     width: 100%;
-    height: 75vh;
-    background-color: #7b5151 ;    
+    
+    background-color: #ffffff;    
 }
 .header {
-     
+    height: 100vh;
       width: 100%;
-       background-color: #7b5151 ;
+       background-color: #ffffff ;
      background-size: cover;
      display: flex;
     justify-content: center;
@@ -32,28 +45,51 @@ header a {
 }
 .menu {
     display: flex;
-
   text-transform:uppercase;
 }
-
-
 
 .buy-button {
  outline: none;
  border: none;
  border-radius: 25px;   
- background-color: #690000;
+ background-color: #b40000;
  cursor: pointer;
  color: #efefeff6;
  font-weight: 600;
- margin-top: 30px;
-height:50px;
-width: 130px;
+ margin-top: 20px;
+height:37px;
+width: 165px;
+}
+.buy-button2 {
+    outline: none;
+    border: none;
+    border-radius: 25px;   
+    background-color: #b40000;
+    cursor: pointer;
+    color: #efefeff6;
+    font-weight: 600;
+    margin-top: 30px;
+   height:40px;
+   width: 120px;
+   }
+#but2{
+margin-top: 0;
+}
+.buy-button:hover{ 
+    font-size: 20px;
+    color: #ffeaea;
+    transition-duration: 0.3s;
+    
+}
+.buy-button2:hover{ 
+    font-size: 20px;
+    color: black;
+    
+    
 }
 .menu {
     margin-bottom: 100px;
     display: flex;
-
   text-transform:uppercase;
     font-size:25px;
 }
@@ -76,38 +112,23 @@ width: 130px;
     color: #ffeaea;
     
 }
-.tell{
-    font-size: 20px;
-    text-decoration: none;
-    margin-left: auto;
-    letter-spacing: 0.1em;
-}
-.nav {
-    display: flex;
-    padding-top: 57px;
-    justify-content: center;
-    height: 50px;
-    width: 1300px;
-    
-}
 
 .footer{
     height: 100px;
     width: 100%;
-    background-color: pink;
+    background-color: #861d1d;
     margin-top: auto;
 }
 
 
 .about{
-    background-color: #7b5151
+    background-color: #ffffff;
 }
 li {
     list-style: none;
   }
 
   .carousel {
-    border: 15px solid #ba7967;
     border-radius: 10px;
   width: 1300px;
   height: 650px;
@@ -117,7 +138,7 @@ li {
     width: 100%; 
     height: 100%; 
     object-fit: cover;
-
+ padding-top: 30px;
 }
 .hh2{
     margin-bottom: 40px;
@@ -133,3 +154,30 @@ li {
 .font-color-red {
     color:#690000 !important
 }
+.back{
+    font-family: "Comfortaa", sans-serif;
+    border: 6px dashed  #b40000;
+    border-radius: 10px;
+  width: 700px;
+    border-radius: 20px 20px 20px 20px;
+    width: 1328px;
+    position: absolute;
+    margin-top: 40%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.why{
+
+    text-align: center;
+
+}
+.font-color-wiht {
+   color: #0c0101;
+}
+  
+  .logo{
+    
+    width: 50px;
+    height: 50px;
+  }
