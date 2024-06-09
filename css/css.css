@@ -57,6 +57,7 @@ header a {
  color: #efefeff6;
  font-weight: 600;
  margin-top: 20px;
+ margin-bottom: 40px;
 height:37px;
 width: 165px;
 }
@@ -88,15 +89,21 @@ margin-top: 0;
     
 }
 .menu {
-    margin-bottom: 100px;
+    width: 600px;
     display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
   text-transform:uppercase;
     font-size:25px;
 }
-.menu {
-    display: flex;
-}
+
+.menu li {
+    text-align: center;
+    width: 150px;
+}   
 .menu li a {
+    width: 150px;
+    transform-origin: center;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 20px;
@@ -105,9 +112,11 @@ margin-top: 0;
 .menu li a{ 
     margin-right: 40px;
     color: #200b0b;
-    transition-duration: 0.4s;
+    transition: 0.4s;
+  transform: scale(1);
 }
 .menu li a:hover{ 
+    transform: scale(1.2);
     font-size: 25px;
     color: #ffeaea;
     
@@ -162,7 +171,7 @@ li {
     border-radius: 20px 20px 20px 20px;
     width: 1328px;
     position: absolute;
-    margin-top: 40%;
+    margin-top: 42%;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);

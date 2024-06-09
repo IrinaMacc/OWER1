@@ -20,7 +20,7 @@ section{
 
 }
 .header {
-  
+  height: 100vh;
       width: 100%;
        background-color: #ffffff ;
      background-size: cover;
@@ -33,15 +33,27 @@ header a {
     color: #fff;
 }
 .menu {
-    display: flex;
-
+    flex-wrap: nowrap;
   text-transform:uppercase;
     font-size:25px;
 }
+
+.menu li {
+
+  display: inline-block;
+  text-align: center;
+  width: auto; /* удалите фиксированную ширину */
+}
 .menu {
     display: flex;
-}
+  flex-wrap: nowrap;
+      width: 500px;
+      height: 30px;
+      justify-content: space-evenly;
+  }
+
 .menu li a {
+  transform-origin: center;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 20px;
@@ -148,4 +160,23 @@ cursor: pointer;
 }
 li {
   list-style: none;
+}
+@media (max-width: 1200px) {
+  .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+@media (max-width: 900px) {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 600px) {
+  .products-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
